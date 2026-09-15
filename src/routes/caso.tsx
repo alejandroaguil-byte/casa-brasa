@@ -3,6 +3,7 @@ import { DemoBanner } from "@/components/demo-banner";
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
 import { Button } from "@/components/ui/button";
+import { Photo } from "@/components/photo";
 
 export const Route = createFileRoute("/caso")({ component: CasoPage });
 
@@ -26,8 +27,8 @@ export function CasoPage() {
         </p>
 
         <figure className="mt-10 overflow-hidden rounded-xl">
-          <img
-            src="/images/hero.jpg"
+          <Photo
+            src="/images/hero.svg"
             alt="Interior de Casa Brasa."
             className="photo aspect-16/9 w-full object-cover"
           />

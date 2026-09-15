@@ -6,6 +6,7 @@ import { ReservationForm } from "@/components/reservation-form";
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
 import { Button } from "@/components/ui/button";
+import { Photo } from "@/components/photo";
 import { formatLongDate, restaurant } from "@/lib/data";
 import { useReservations } from "@/lib/store";
 
@@ -85,8 +86,8 @@ function ReservarPage() {
 
         <aside className="lg:sticky lg:top-8">
           <figure className="overflow-hidden rounded-xl">
-            <img
-              src="/images/fachada.jpg"
+            <Photo
+              src="/images/fachada.svg"
               alt="Casa Brasa de noche en Irarrázaval."
               className="photo aspect-4/3 w-full object-cover"
             />
