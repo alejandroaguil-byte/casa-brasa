@@ -19,7 +19,7 @@ function Home() {
       <DemoBanner />
       <div className="relative min-h-[92vh] overflow-hidden bg-ink text-paper">
         <Photo
-          src="/images/hero.jpg"
+          src="/images/hero.svg"
           alt="Salón de Casa Brasa al anochecer, con la parrilla encendida al fondo."
           className="absolute inset-0 size-full object-cover"
         />
@@ -75,7 +75,7 @@ function Home() {
         </div>
         <figure className="overflow-hidden rounded-xl">
           <Photo
-            src="/images/brasas.jpg"
+            src="/images/brasas.svg"
             alt="Brasas encendidas en la parrilla de la casa."
             className="photo aspect-16/10 w-full object-cover"
           />
@@ -104,10 +104,10 @@ function Home() {
           <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {featured.map((item, index) => {
               const images = [
-                "/images/provoleta.jpg",
-                "/images/pulpo.jpg",
-                "/images/bife.jpg",
-                "/images/leche-asada.jpg",
+                "/images/provoleta.svg",
+                "/images/pulpo.svg",
+                "/images/bife.svg",
+                "/images/leche-asada.svg",
               ];
               return (
                 <article key={item.name} className="group">
@@ -137,7 +137,7 @@ function Home() {
       <section className="mx-auto grid max-w-6xl gap-10 px-4 py-16 sm:px-6 lg:grid-cols-2 lg:items-center">
         <figure className="overflow-hidden rounded-xl">
           <Photo
-            src="/images/vino.jpg"
+            src="/images/vino.svg"
             alt="Copa de Carmenère en la mesa."
             className="photo aspect-3/2 w-full object-cover"
           />
@@ -211,7 +211,7 @@ function Home() {
 
       <section className="relative overflow-hidden bg-ink text-paper">
         <Photo
-          src="/images/fachada.jpg"
+          src="/images/fachada.svg"
           alt="Fachada de Casa Brasa de noche."
           className="absolute inset-0 size-full object-cover opacity-50"
         />
