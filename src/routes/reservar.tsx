@@ -8,6 +8,7 @@ import { SiteHeader } from "@/components/site-header";
 import { Button } from "@/components/ui/button";
 import { Photo } from "@/components/photo";
 import { formatLongDate, restaurant } from "@/lib/data";
+import { photos } from "@/lib/photos";
 import { useReservations } from "@/lib/store";
 
 const searchSchema = z.object({
@@ -87,7 +88,7 @@ function ReservarPage() {
         <aside className="lg:sticky lg:top-8">
           <figure className="overflow-hidden rounded-xl">
             <Photo
-              src="/images/fachada.svg"
+              src={photos.fachada}
               alt="Casa Brasa de noche en Irarrázaval."
               className="photo aspect-4/3 w-full object-cover"
             />
