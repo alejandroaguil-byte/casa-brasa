@@ -4,9 +4,13 @@
 
 Parrilla contemporánea en Ñuñoa: un sitio que consigue mesas y un panel que ordena el servicio del día.
 
-![Salón de Casa Brasa](public/images/hero.jpg)
+![Casa Brasa](docs/cover.svg)
 
 Casa Brasa es un restaurante ficticio. El proyecto existe para mostrar, con un caso concreto, el tipo de solución que BobbaSystem construye para pequeños negocios de Santiago.
+
+## Demo en vivo
+
+La URL de Vercel se publica aquí en cuanto el deploy quede listo.
 
 ## El caso
 
