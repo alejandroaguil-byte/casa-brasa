@@ -4,6 +4,7 @@ import { DemoBanner } from "@/components/demo-banner";
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
 import { Button } from "@/components/ui/button";
+import { Photo } from "@/components/photo";
 import { formatClp, hours, menu, restaurant } from "@/lib/data";
 
 export const Route = createFileRoute("/")({ component: Home });
@@ -17,7 +18,7 @@ function Home() {
     <div className="min-h-screen bg-paper text-ink">
       <DemoBanner />
       <div className="relative min-h-[92vh] overflow-hidden bg-ink text-paper">
-        <img
+        <Photo
           src="/images/hero.jpg"
           alt="Salón de Casa Brasa al anochecer, con la parrilla encendida al fondo."
           className="absolute inset-0 size-full object-cover"
@@ -73,7 +74,7 @@ function Home() {
           </p>
         </div>
         <figure className="overflow-hidden rounded-xl">
-          <img
+          <Photo
             src="/images/brasas.jpg"
             alt="Brasas encendidas en la parrilla de la casa."
             className="photo aspect-16/10 w-full object-cover"
@@ -111,7 +112,7 @@ function Home() {
               return (
                 <article key={item.name} className="group">
                   <div className="overflow-hidden rounded-lg">
-                    <img
+                    <Photo
                       src={images[index]}
                       alt={item.name}
                       className="photo aspect-4/3 w-full object-cover transition-transform duration-500 ease-out group-hover:scale-[1.03]"
@@ -135,7 +136,7 @@ function Home() {
 
       <section className="mx-auto grid max-w-6xl gap-10 px-4 py-16 sm:px-6 lg:grid-cols-2 lg:items-center">
         <figure className="overflow-hidden rounded-xl">
-          <img
+          <Photo
             src="/images/vino.jpg"
             alt="Copa de Carmenère en la mesa."
             className="photo aspect-3/2 w-full object-cover"
@@ -209,7 +210,7 @@ function Home() {
       </section>
 
       <section className="relative overflow-hidden bg-ink text-paper">
-        <img
+        <Photo
           src="/images/fachada.jpg"
           alt="Fachada de Casa Brasa de noche."
           className="absolute inset-0 size-full object-cover opacity-50"
