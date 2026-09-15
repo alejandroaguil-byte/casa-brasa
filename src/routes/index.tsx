@@ -6,6 +6,7 @@ import { SiteHeader } from "@/components/site-header";
 import { Button } from "@/components/ui/button";
 import { Photo } from "@/components/photo";
 import { formatClp, hours, menu, restaurant } from "@/lib/data";
+import { photos } from "@/lib/photos";
 
 export const Route = createFileRoute("/")({ component: Home });
 
@@ -19,7 +20,7 @@ function Home() {
       <DemoBanner />
       <div className="relative min-h-[92vh] overflow-hidden bg-ink text-paper">
         <Photo
-          src="/images/hero.svg"
+          src={photos.hero}
           alt="Salón de Casa Brasa al anochecer, con la parrilla encendida al fondo."
           className="absolute inset-0 size-full object-cover"
         />
@@ -75,7 +76,7 @@ function Home() {
         </div>
         <figure className="overflow-hidden rounded-xl">
           <Photo
-            src="/images/brasas.svg"
+            src={photos.brasas}
             alt="Brasas encendidas en la parrilla de la casa."
             className="photo aspect-16/10 w-full object-cover"
           />
@@ -104,10 +105,10 @@ function Home() {
           <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {featured.map((item, index) => {
               const images = [
-                "/images/provoleta.svg",
-                "/images/pulpo.svg",
-                "/images/bife.svg",
-                "/images/leche-asada.svg",
+                photos.provoleta,
+                photos.pulpo,
+                photos.bife,
+                photos.lecheAsada,
               ];
               return (
                 <article key={item.name} className="group">
@@ -137,7 +138,7 @@ function Home() {
       <section className="mx-auto grid max-w-6xl gap-10 px-4 py-16 sm:px-6 lg:grid-cols-2 lg:items-center">
         <figure className="overflow-hidden rounded-xl">
           <Photo
-            src="/images/vino.svg"
+            src={photos.vino}
             alt="Copa de Carmenère en la mesa."
             className="photo aspect-3/2 w-full object-cover"
           />
@@ -211,7 +212,7 @@ function Home() {
 
       <section className="relative overflow-hidden bg-ink text-paper">
         <Photo
-          src="/images/fachada.svg"
+          src={photos.fachada}
           alt="Fachada de Casa Brasa de noche."
           className="absolute inset-0 size-full object-cover opacity-50"
         />
