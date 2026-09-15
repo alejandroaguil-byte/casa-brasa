@@ -58,7 +58,16 @@ export function SiteFooter() {
           >
             BobbaSystem
           </a>{" "}
-          para pequeños negocios de Santiago.
+          para pequeños negocios de Santiago. Fotografías de{" "}
+          <a
+            href="https://www.pexels.com"
+            target="_blank"
+            rel="noreferrer"
+            className="text-ink underline-offset-4 hover:underline"
+          >
+            Pexels
+          </a>
+          .
         </p>
       </div>
     </footer>
