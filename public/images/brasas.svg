@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <radialGradient id="coal" cx="50%" cy="70%" r="70%">
+      <stop offset="0%" stop-color="#F2B46A"/>
+      <stop offset="25%" stop-color="#D45A2C"/>
+      <stop offset="60%" stop-color="#3A1A12"/>
+      <stop offset="100%" stop-color="#14100E"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="750" fill="#14100E"/>
+  <rect width="1200" height="750" fill="url(#coal)"/>
+  <g>
+    <circle cx="280" cy="520" r="38" fill="#2A1812"/>
+    <circle cx="360" cy="560" r="46" fill="#B84A2A"/>
+    <circle cx="450" cy="530" r="40" fill="#3A2016"/>
+    <circle cx="540" cy="575" r="52" fill="#E08A40"/>
+    <circle cx="640" cy="540" r="44" fill="#2A1812"/>
+    <circle cx="730" cy="570" r="48" fill="#C4562A"/>
+    <circle cx="820" cy="525" r="36" fill="#1C1612"/>
+    <circle cx="900" cy="560" r="42" fill="#D47838"/>
+  </g>
+</svg>

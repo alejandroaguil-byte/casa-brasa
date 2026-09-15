@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" preserveAspectRatio="xMidYMid slice">
+  <rect width="1200" height="900" fill="#161210"/>
+  <rect y="520" width="1200" height="380" fill="#1C1612"/>
+  <rect x="260" y="180" width="680" height="520" fill="#241C16"/>
+  <rect x="260" y="180" width="8" height="520" fill="#B84A2A"/>
+  <rect x="310" y="240" width="180" height="220" fill="#E8A060" opacity="0.35"/>
+  <rect x="510" y="240" width="180" height="220" fill="#E8A060" opacity="0.22"/>
+  <rect x="710" y="240" width="180" height="220" fill="#E8A060" opacity="0.3"/>
+  <rect x="310" y="500" width="580" height="140" fill="#120E0C"/>
+  <rect x="540" y="520" width="120" height="120" fill="#B08A5C" opacity="0.25"/>
+  <text x="600" y="160" text-anchor="middle" fill="#F4EDE4" font-family="Georgia, serif" font-size="42">CASA BRASA</text>
+</svg>
